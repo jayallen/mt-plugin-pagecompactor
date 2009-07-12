@@ -1,0 +1,10 @@
+name: Page Compactor
+id: PageCompactor
+key: PageCompactor
+author_link: http://endevver.com
+author_name: Endevver Consulting
+description: Gets rid of the massive whitespace before the start and end of all pages.
+version: 1.0
+
+callbacks:
+    BuildPage: $PageCompactor::PageCompactor::compact_page
